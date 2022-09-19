@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "quizz",
+    "name": "Vocab",
     "slug": "quizz",
-    "version": "1.0.0",
+    "version": "1.0.4",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -18,16 +18,25 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.harshamsh.quizz"
     },
     "android": {
+      "versionCode":4,
       "adaptiveIcon": {
+        "package":"com.harshamsh.quizz",
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.harshamsh.quizz"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "af982ead-75c8-43ce-b477-91356c61a175"
+      }
     }
   }
 }
