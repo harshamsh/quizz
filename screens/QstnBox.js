@@ -87,7 +87,7 @@ const QstnBox = () => {
 //     setCurrentQuestion(easyQuestions[0]);
 //   }, []);
 
-// When he submit button is clicked for one question
+// When he submit button is clicked for one
   const onSubmit = () => {
     // updates the number of questions answered globally
     setGlobalValues(prev => {
