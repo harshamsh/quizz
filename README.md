@@ -30,7 +30,7 @@ To use this app, you'll need to do the following:
 
 If you'd like to contribute to this app, please follow the steps below:
 
-*Fork the repository to your own account.
-*Create a new branch for your changes.
-*Make your changes and test them thoroughly.
-*Submit a pull request to the original repository.
+* Fork the repository to your own account.
+* Create a new branch for your changes.
+* Make your changes and test them thoroughly.
+* Submit a pull request to the original repository.
